@@ -12,8 +12,8 @@ jobs:
       if: github.ref == 'refs/heads/master'
       with:
         markdown_dir: README.md
-        output_dir: README.pdf
+        output_dir: tmp
     - uses: actions/upload-artifact@v1
       with:
         name: platform-architecture-docs
-        path: README.pdf
+        path: tmp
