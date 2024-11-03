@@ -1,7 +1,24 @@
-Meet Mohammad HZ, a passionate programmer who lives and breathes code!
-Whether it's solving complex problems or crafting elegant solutions, they find joy in every line they write.
-With fingers flying across the keyboard, they transform ideas into reality, one algorithm at a time.
-Debugging?
-    A fun challenge!
-Coding?
-    A way of life!
+Developer & Programmar
+
+Berief about myself:
+   None
+
+
+Work Experience:
+   Not Completed yet
+Education:
+Computer Science:
+University of Mazandaran (2019-2023)
+
+Contact Info
++989210096317
+mohammad.hz.dev@gmail.com
+
+وضعیت سربازی: معافیت تحصیلی وضعیت 􏰀أهل: مجرد 
+Address:
+   Iran, Mazandaran, Amol
+
+
+Language:
+   Persian (Native)
+   English ()
