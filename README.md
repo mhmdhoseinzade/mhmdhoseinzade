@@ -10,15 +10,8 @@ MyCountry                           1800 my-phone-nr
 Education
 ---------
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
-
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
-
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
+2019-2023
+:   **BSc, Computer Science **; University of Mazandaran
 
     *Minor: Awesomeology*
 
@@ -84,9 +77,8 @@ Extra Section, Call it Whatever You Want
 
 * Human Languages:
 
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
+     * English (mid-level)
+     * Persian (native speaker)
 
 * Random tidbit
 
