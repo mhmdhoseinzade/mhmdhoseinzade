@@ -1,1 +1,44 @@
-this is sample test
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رزومه</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; direction: rtl; text-align: right; margin: 20px; }
+        .container { max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 10px; }
+        h2 { color: #007bff; }
+        ul { list-style-type: none; padding: 0; }
+        li { background: #f8f9fa; margin: 5px 0; padding: 10px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <div id="app" class="container">
+        <h2>{{ resume.name }}</h2>
+        <p><strong>شغل:</strong> {{ resume.job }}</p>
+        <p><strong>درباره من:</strong> {{ resume.about }}</p>
+        <h3>مهارت‌ها:</h3>
+        <ul>
+            <li v-for="skill in resume.skills" :key="skill">{{ skill }}</li>
+        </ul>
+    </div>
+
+    <script>
+        const { createApp, ref } = Vue;
+
+        createApp({
+            setup() {
+                const resume = ref({});
+                
+                fetch('resume.json')
+                    .then(response => response.json())
+                    .then(data => { resume.value = data; })
+                    .catch(error => console.error('خطا در دریافت داده:', error));
+                
+                return { resume };
+            }
+        }).mount('#app');
+    </script>
+</body>
+</html>
