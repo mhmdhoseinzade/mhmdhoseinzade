@@ -44,25 +44,25 @@ Runflare | Runflare.com | Dec 2019 - Oct 2022
 
 Senior Developer at Runflare
 
-Developed and optimized the Runflare PaaS project with a scalable architecture
-Designed and published the Runflare CLI on PyPI, reducing user deployment time by 70%
-Implemented and optimized the backup system, reducing data recovery time from 60 minutes to 10 minutes
-Deployed and managed cloud services using Docker and Kubernetes, ensuring 99.9% uptime
-Developed the CRM system to enhance the user experience
-Implemented CI/CD for automated deployments from GitHub/GitLab
-Utilized Redis Cache to optimize response times, reducing request processing time by 40%
-Designed and developed complete system restore mechanisms for critical scenarios
-Developed and integrated a monitoring and alerting system, accelerating issue detection and resolution
-Wrote tests and performed refactoring to improve code quality and maintainability
-Obtaining Knowledge-Based Certification for the Product
+* Developed and optimized the Runflare PaaS project with a scalable architecture
+* Designed and published the Runflare CLI on PyPI, reducing user deployment time by 70%
+* Implemented and optimized the backup system, reducing data recovery time from 60 minutes to 10 minutes
+* Deployed and managed cloud services using Docker and Kubernetes, ensuring 99.9% uptime
+* Developed the CRM system to enhance the user experience
+* Implemented CI/CD for automated deployments from GitHub/GitLab
+* Utilized Redis Cache to optimize response times, reducing request processing time by 40%
+* Designed and developed complete system restore mechanisms for critical scenarios
+* Developed and integrated a monitoring and alerting system, accelerating issue detection and resolution
+* Wrote tests and performed refactoring to improve code quality and maintainability
+* Obtaining Knowledge-Based Certification for the Product
 
 
 Runflare | Runflare.com | Mar 2023 – Present
 
-Developed and improved the backup system, reducing costs by 20% with a new approach.
-Added WebSocket support for real-time user communication.
-Achieved a 10x increase in deployment speed for users updating their website version.
-Continuously fixed bugs and enhanced system performance.
+* Developed and improved the backup system, reducing costs by 20% with a new approach.
+* Added WebSocket support for real-time user communication.
+* Achieved a 10x increase in deployment speed for users updating their website version.
+* Continuously fixed bugs and enhanced system performance.
 
 Programming Languages
 :   **Python:** Expert in Python with extensive experience in developing scalable backend systems,
