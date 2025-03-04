@@ -18,29 +18,7 @@ Education
 Experience
 ----------
 
-**Your Most Recent Work Experience:**
-
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
-
-* First item
-
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
-
-**That Other Job You Had**
-
-Also with a short description.
-
-Technical Experience
---------------------
-
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
-
-Runflare | Runflare.com | Dec 2019 - Oct 2022
+Runflare.com | Dec 2019 - Oct 2022
 
 Senior Developer at Runflare
 
@@ -57,12 +35,25 @@ Senior Developer at Runflare
 * Obtaining Knowledge-Based Certification for the Product
 
 
-Runflare | Runflare.com | Mar 2023 – Present
+Runflare.com | Mar 2023 – Present
 
 * Developed and improved the backup system, reducing costs by 20% with a new approach.
 * Added WebSocket support for real-time user communication.
 * Achieved a 10x increase in deployment speed for users updating their website version.
 * Continuously fixed bugs and enhanced system performance.
+
+**That Other Job You Had**
+
+Also with a short description.
+
+Technical Experience
+--------------------
+
+My Cool Side Project
+:   For items which don't have a clear time ordering, a definition
+    list can be used to have named items.
+
+
 
 Programming Languages
 :   **Python:** Expert in Python with extensive experience in developing scalable backend systems,
