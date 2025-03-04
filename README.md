@@ -43,9 +43,6 @@ Runflare.com | Mar 2023 – Present
 * Achieved a 10x increase in deployment speed for users updating their website version.
 * Continuously fixed bugs and enhanced system performance.
 
-**That Other Job You Had**
-
-Also with a short description.
 
 Technical Experience
 --------------------
