@@ -1,19 +1,18 @@
-Mohammad Hoseinzadeh
-============
+# Mohammad Hoseinzadeh
 
--------------------     ----------------------------
-1 MyAddress                        email@example.com
-MyTown 1000                          @twitter_handle
-MyCountry                           1800 my-phone-nr
--------------------     ----------------------------
+---
+
+**MyAddress** | email@example.com  
+**MyTown 1000** | @twitter_handle  
+**MyCountry** | 1800 my-phone-nr  
+
+---
 
 Education
 ---------
 
 2019-2023
 :   **BSc, Computer Science **; University of Mazandaran
-
-    *Minor: Awesomeology*
 
 Experience
 ----------
