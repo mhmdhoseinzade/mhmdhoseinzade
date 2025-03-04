@@ -2,9 +2,11 @@
 
 ---
 
-**MyAddress** | email@example.com  
-**MyTown 1000** | @twitter_handle  
-**MyCountry** | 1800 my-phone-nr  
+| Address       | Contact Information      |
+|--------------|-------------------------|
+| Iran,Mazandaran    | email@example.com       |
+| MyTown 1000  | @twitter_handle         |
+| MyCountry    | 1800 my-phone-nr        |
 
 ---
 
