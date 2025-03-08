@@ -25,7 +25,7 @@ Senior Developer at Runflare
 
 * Developed and optimized the Runflare PaaS project with a scalable architecture
 * Designed and published the Runflare CLI on PyPI, reducing user deployment time by 70%
-* Implemented and optimized the backup system, reducing data recovery time from 60 minutes to 10 minutes
+* Implemented and optimized the backup system, reducing data recovery time from 25 minutes to 15 minutes
 * Deployed and managed cloud services using Docker and Kubernetes, ensuring 99.9% uptime
 * Developed the CRM system to enhance the user experience
 * Implemented CI/CD for automated deployments from GitHub/GitLab
@@ -42,6 +42,10 @@ Runflare.com | Mar 2023 – Present
 * Added WebSocket support for real-time user communication.
 * Achieved a 10x increase in deployment speed for users updating their website version.
 * Continuously fixed bugs and enhanced system performance.
+* Re-write CLI in go lang
+* Optimise Backup Core and reducing backup processing time by 30%
+* Lead Backend Team and Review Codes
+* ...
 
 
 Technical Experience
