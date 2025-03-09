@@ -5,7 +5,7 @@
 | Address       | Contact Information      |
 |--------------|-------------------------|
 | Iran    | mohammad.hz.dev@gmail.com       |
-| Mazandaran  | @twitter_handle         |
+| Mazandaran  | mhmdhoseinzade.ir         |
 | Amol    | @1111        |
 
 ---
