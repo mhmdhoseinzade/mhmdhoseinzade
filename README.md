@@ -6,7 +6,7 @@
 |--------------|-------------------------|
 | Iran    | mohammad.hz.dev@gmail.com       |
 | Mazandaran  | mhmdhoseinzade.ir         |
-| Amol    | @1111        |
+| Amol    |         |
 
 ---
 
