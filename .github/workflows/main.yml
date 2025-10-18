@@ -13,7 +13,7 @@ jobs:
       with:
         markdown_dir: README.md
         output_dir: /tmp
-    - uses: actions/upload-artifact@v1
+    - uses: actions/upload-artifact@v3
       with:
         name: platform-architecture-docs
         path: /tmp
