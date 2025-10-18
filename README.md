@@ -1,77 +1,59 @@
 # Mohammad Hoseinzadeh
+Back-End Developer
 
----
+[github.com/mhmdhoseinzade](https://github.com/mhmdhoseinzade) | [linkedin.com/in/mhmdhoseinzade](https://www.linkedin.com/in/mhmdhoseinzade) | [mhmdhoseinzade.ir](https://mhmdhoseinzade.ir)
 
-| Address       | Contact Information      |
-|--------------|-------------------------|
-| Iran    | mohammad.hz.dev@gmail.com       |
-| Mazandaran  | mhmdhoseinzade.ir         |
-| Amol    |         |
+[mohammad.hz.dev@gmail.com](mailto:mohammad.hz.dev@gmail.com) | +989115818088 | Tehran, Iran
 
----
+Summary
+---------
+Backend developer with 6+ years of experience in Python, Django, FastAPI, Flask, and building scalable microservices. Experienced in Kubernetes, Docker, CI/CD pipelines, and cloud deployments. Passionate about learning, collaborative teamwork, and delivering maintainable, efficient software solutions
 
 Education
 ---------
 
-2019-2023
-:   **BSc, Computer Science **; University of Mazandaran
+2019-2023 | BSc, Computer Science | University of Mazandaran
 
 Experience
 ----------
 
-Runflare.com | Dec 2019 - Oct 2022
+### Runflare.com | Dec 2019 - Oct 2022
+#### Back-End Developer at Runflare
 
-Senior Developer at Runflare
-
-* Developed and optimized the Runflare PaaS project with a scalable architecture
-* Designed and published the Runflare CLI on PyPI, reducing user deployment time by 70%
-* Implemented and optimized the backup system, reducing data recovery time from 25 minutes to 15 minutes
-* Deployed and managed cloud services using Docker and Kubernetes, ensuring 99.9% uptime
-* Developed the CRM system to enhance the user experience
-* Implemented CI/CD for automated deployments from GitHub/GitLab
-* Utilized Redis Cache to optimize response times, reducing request processing time by 40%
-* Designed and developed complete system restore mechanisms for critical scenarios
-* Developed and integrated a monitoring and alerting system, accelerating issue detection and resolution
-* Wrote tests and performed refactoring to improve code quality and maintainability
-* Obtaining Knowledge-Based Certification for the Product
-
-
-Runflare.com | Mar 2023 – Present
-
-* Developed and improved the backup system, reducing costs by 20% with a new approach.
-* Added WebSocket support for real-time user communication.
-* Achieved a 10x increase in deployment speed for users updating their website version.
-* Continuously fixed bugs and enhanced system performance.
-* Re-write CLI in go lang
-* Optimise Backup Core and reducing backup processing time by 30%
-* Lead Backend Team and Review Codes
-* ...
+Designed and optimized the Runflare PaaS platform using Django and Django REST Framework.
+Utilized Kubernetes entities, functions, and cloud service concepts to orchestrate and manage containerized applications.
+Implemented CI/CD pipelines for automated deployments from GitHub and GitLab.
+Published the Runflare CLI on PyPI, reducing user deployment time by 70% with a single command.
+Developed and optimized the backup system, cutting data recovery time from 30 minutes to 15 minutes.
+Converted a monolithic architecture to microservices using FastAPI, Flask, and mainly Django. Utilized Go in certain components to enhance Kubernetes integration.
+Designed and implemented full system restore mechanisms for critical failure scenarios.
+Utilized Harbor registry to store and retrieve user container images efficiently.
+Integrated Redis caching and Celery for background task processing, improving response times and reducing request latency by 40%.
+Built an internal CRM system to improve user experience and customer management.
+Built a monitoring and alerting system, accelerating issue detection and resolution.
+Wrote automated tests and performed code refactoring to improve code quality and maintainability.
+Obtained knowledge-based certification for the product and fulfilled mandatory military service through the Amriyeh Program (alternative service for tech professionals).
 
 
-Technical Experience
---------------------
+### Runflare.com | Mar 2023 – Present
+#### Back-End Developer / Team Lead
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
+Led the backend development team, performed code reviews, and guided best practices
+Developed and enhanced the backup system, reducing infrastructure costs by 20% through a new architectural approach.
+Rewrote the Runflare CLI in Go, improving performance, maintainability, and cross-platform support.
+Implemented a monitoring system with the ELK stack (Elasticsearch, Logstash, Kibana) to detect bottlenecks and hidden issues, improving disaster response times by 35% and reducing downtime.
+Added WebSocket support to enable real-time communication between users.
+Utilized RabbitMQ to handle background tasks and event-driven communication, reducing response latency by 25%.
+Optimized the backup core, reducing backup processing time by 30%.
+Experience with multiple databases including PostgreSQL, MySQL, MongoDB, and Redis, and implementing automated, database-specific backup mechanisms.
+Resolved builder-related issues, increased system stability, and boosted build speed by 50%.
+Achieved a 10x increase in deployment speed for users updating their website versions.
+Integrated an AI-powered RAG (Retrieval-Augmented Generation) system to answer users’ technical questions.
 
-
-
-Programming Languages
-:   **Python:** Expert in Python with extensive experience in developing scalable backend systems,
- automation, and cloud infrastructure. Specialized in optimizing performance, implementing CI/CD,
- managing cloud services with Docker and Kubernetes, and enhancing system stability and security.
-
-[ref]: https://github.com/githubuser/superlongprojectname
-
-Extra Section, Call it Whatever You Want
-----------------------------------------
-
-* Human Languages:
-
-     * English (mid-level)
-     * Persian (native speaker)
-
-* Random tidbit
-
-* Other sort of impressive-sounding thing you did
+Skills
+---------
+Languages: Python  
+Frameworks: Django, FastAPI, Flask  
+DevOps: Docker, Kubernetes, CI/CD, GitLab, GitHub Actions  
+Databases: PostgreSQL, MySQL, MongoDB, Redis, Elastic
+Soft:  Critical Thinking, Curiosity, Emotional Management, Team-work
