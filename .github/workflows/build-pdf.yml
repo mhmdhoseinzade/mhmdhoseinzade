@@ -1,0 +1,43 @@
+name: Build Jekyll and Generate PDF
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.2'
+
+    - name: Install Bundler and Gems
+      run: |
+        gem install bundler
+        bundle install
+
+    - name: Install wkhtmltopdf
+      run: sudo apt-get install -y wkhtmltopdf
+
+    - name: Build Jekyll site
+      run: bundle exec jekyll build
+
+    - name: Generate PDF
+      run: |
+        mkdir -p assets/pdf
+        wkhtmltopdf _site/index.html assets/pdf/index.pdf
+        # برای هر صفحه Markdown، مشابه این دستور اضافه کنید
+
+    - name: Commit and Push PDF
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add assets/pdf/*.pdf
+        git commit -m "Add generated PDF" || echo "No changes to commit"
+        git push
