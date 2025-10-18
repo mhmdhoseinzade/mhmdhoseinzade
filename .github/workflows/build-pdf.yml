@@ -1,43 +1,45 @@
-name: Build Jekyll and Generate PDF
+name: Convert README.md to HTML
 
 on:
   push:
     branches:
-      - main
+      - main  # یا branch اصلی شما
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
+    # ۱. چک کردن کد
     - uses: actions/checkout@v3
 
+    # ۲. نصب Ruby و Jekyll
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.2'
 
-    - name: Install Bundler and Gems
+    - name: Install Bundler and Jekyll
       run: |
         gem install bundler
-        bundle install
+        gem install jekyll
 
-    - name: Install wkhtmltopdf
-      run: sudo apt-get install -y wkhtmltopdf
-
+    # ۳. ساخت سایت با Jekyll
     - name: Build Jekyll site
-      run: bundle exec jekyll build
-
-    - name: Generate PDF
       run: |
-        mkdir -p assets/pdf
-        wkhtmltopdf _site/index.html assets/pdf/index.pdf
-        # برای هر صفحه Markdown، مشابه این دستور اضافه کنید
+        jekyll new temp-site
+        cp README.md temp-site/
+        cd temp-site
+        # اضافه کردن Front Matter به README.md
+        echo -e "---\nlayout: default\ntitle: README\n---\n" | cat - README.md > README_with_frontmatter.md
+        mv README_with_frontmatter.md README.md
+        jekyll build
 
-    - name: Commit and Push PDF
+    # ۴. Commit و Push فایل HTML به repo (اختیاری)
+    - name: Commit generated HTML
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add assets/pdf/*.pdf
-        git commit -m "Add generated PDF" || echo "No changes to commit"
+        git add temp-site/_site/README.html
+        git commit -m "Add generated README HTML" || echo "No changes to commit"
         git push
