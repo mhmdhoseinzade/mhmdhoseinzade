@@ -53,7 +53,13 @@ Experience
 Skills
 ---------
 Languages: Python  
+
 Frameworks: Django, FastAPI, Flask  
-DevOps: Docker, Kubernetes, CI/CD, GitLab, GitHub Actions  
+
+DevOps: Docker, Kubernetes, CI/CD, GitLab, GitHub Actions
+
 Databases: PostgreSQL, MySQL, MongoDB, Redis, Elastic
+
 Soft:  Critical Thinking, Curiosity, Emotional Management, Team-work
+
+
