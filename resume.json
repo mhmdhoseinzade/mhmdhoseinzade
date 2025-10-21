@@ -21,9 +21,9 @@
     ],
     "experience": [
         {
-            "company": "Runflare.com",
-            "period": "Dec 2019 - Oct 2022",
-            "position": "Back-End Developer at Runflare",
+            "company": "Runflare",
+            "period": "Dec 2019 – Present",
+            "position": "Back-End Developer / Team Lead",
             "achievements": [
                 {
                     "text": "Designed and architected the Runflare PaaS platform using Django and Django REST Framework, increasing API response times by 20% through optimized database queries and caching strategies.",
@@ -76,14 +76,7 @@
                 {
                     "text": "Obtained knowledge-based certification for the product and fulfilled mandatory military service through the Amriyeh Program (alternative service for tech professionals).",
                     "tags": ["Certification", "Military Service", "Amriyeh Program", "Professional Development"]
-                }
-            ]
-        },
-        {
-            "company": "Runflare.com",
-            "period": "Mar 2023 – Present",
-            "position": "Back-End Developer / Team Lead",
-            "achievements": [
+                },
                 {
                     "text": "Led the backend development team, performed code reviews, and guided best practices",
                     "tags": ["Team Leadership", "Code Reviews", "Best Practices", "Mentoring"]
