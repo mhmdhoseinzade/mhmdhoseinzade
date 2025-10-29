@@ -7,7 +7,7 @@ Back-End Developer
 
 Summary
 ---------
-Backend developer with 6+ years of experience in Python, Django, FastAPI, Flask, and building scalable microservices. Experienced in Kubernetes, Docker, CI/CD pipelines, and cloud deployments. Passionate about learning, collaborative teamwork, and delivering maintainable, efficient software solutions.
+Backend developer with 5+ years of experience in Python, Django, FastAPI, Flask, and building scalable microservices. Experienced in Kubernetes, Docker, CI/CD pipelines, and cloud deployments. Passionate about learning, collaborative teamwork, and delivering maintainable, efficient software solutions.
 
 Education
 ---------
