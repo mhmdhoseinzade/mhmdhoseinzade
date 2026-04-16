@@ -77,11 +77,84 @@ def format_skills(skills):
     
     if 'soft' in skills and skills['soft']:
         result += f"Soft:  {', '.join(skills['soft'])}\n\n"
+
+    if 'concepts' in skills and skills['concepts']:
+        result += f"Concepts: {', '.join(skills['concepts'])}\n\n"
+    
+    return result
+
+def format_links_fa(links):
+    github_url = f"https://github.com/{links['github']}"
+    linkedin_url = f"https://www.linkedin.com/in/{links['linkedin']}"
+    github_link = f"[github.com/{links['github']}]({github_url})"
+    linkedin_link = f"[linkedin.com/in/{links['linkedin']}]({linkedin_url})"
+    website_link = f"[mhmdhoseinzade.ir]({links['website']})"
+    return f"{github_link} | {linkedin_link} | {website_link}"
+
+def format_contact_fa(contact):
+    email_link = f"[{contact['email']}](mailto:{contact['email']})"
+    return f"{email_link} | {contact['phone']} | {contact['location']}"
+
+def format_education_fa(education):
+    if not education:
+        return ""
+    
+    result = "تحصیلات\n---------\n\n"
+    for edu in education:
+        result += f"{edu['period']} | {edu['degree']} | {edu['institution']}\n"
+    
+    result += "\n"
+    return result
+
+def format_experience_fa(experience):
+    if not experience:
+        return ""
+    
+    result = "تجربه کاری\n----------\n\n"
+    
+    for exp in experience:
+        result += f"### {exp['company']} | {exp['period']}\n"
+        result += f"#### {exp['position']}\n\n"
+        
+        for achievement in exp['achievements']:
+            if isinstance(achievement, dict):
+                result += f"* {achievement['text']}\n"
+            else:
+                result += f"* {achievement}\n"
+        
+        result += "\n"
+    
+    return result
+
+def format_skills_fa(skills):
+    if not skills:
+        return ""
+    
+    result = "مهارت‌ها\n---------\n"
+    
+    if 'languages' in skills and skills['languages']:
+        result += f"زبان‌ها: {'  '.join(skills['languages'])}\n\n"
+    
+    if 'frameworks' in skills and skills['frameworks']:
+        result += f"فریمورک‌ها: {'  '.join(skills['frameworks'])}\n\n"
+    
+    if 'devops' in skills and skills['devops']:
+        result += f"DevOps: {', '.join(skills['devops'])}\n\n"
+    
+    if 'databases' in skills and skills['databases']:
+        result += f"پایگاه‌داده‌ها: {', '.join(skills['databases'])}\n\n"
+    
+    if 'soft' in skills and skills['soft']:
+        result += f"مهارت‌های نرم: {', '.join(skills['soft'])}\n\n"
+
+    if 'concepts' in skills and skills['concepts']:
+        result += f"مفاهیم: {', '.join(skills['concepts'])}\n\n"
     
     return result
 
 def generate_readme(resume_data):
-    readme = f"# {resume_data['name']}\n"
+    readme = "<a id=\"en\"></a>\n\n"
+    readme += f"# {resume_data['name']}\n"
     readme += f"{resume_data['title']}\n\n"
     
     readme += f"{format_links(resume_data['links'])}\n\n"
@@ -99,13 +172,49 @@ def generate_readme(resume_data):
     
     return readme
 
+def generate_readme_fa(resume_data):
+    readme = "<a id=\"fa\"></a>\n\n"
+    readme += f"# {resume_data['name']}\n"
+    readme += f"{resume_data['title']}\n\n"
+    
+    readme += f"{format_links_fa(resume_data['links'])}\n\n"
+    
+    readme += f"{format_contact_fa(resume_data['contact'])}\n\n"
+    
+    readme += "خلاصه\n---------\n"
+    readme += f"{resume_data['summary']}\n\n"
+    
+    readme += format_education_fa(resume_data['education'])
+    
+    readme += format_experience_fa(resume_data['experience'])
+    
+    readme += format_skills_fa(resume_data['skills'])
+    
+    return readme
+
 def main():
     json_file = "resume.json"
+    json_file_fa = "resume.fa.json"
     output_file = "README.md"
     
     resume_data = load_resume_data(json_file)
-    
-    readme_content = generate_readme(resume_data)
+
+    readme_content = (
+        "Language / زبان\n"
+        "--------------\n\n"
+        "- [English](#en)\n"
+        "- [فارسی](#fa)\n\n"
+        "---\n\n"
+    )
+    readme_content += generate_readme(resume_data)
+
+    try:
+        resume_data_fa = load_resume_data(json_file_fa)
+        readme_content += "\n---\n\n"
+        readme_content += generate_readme_fa(resume_data_fa)
+    except SystemExit:
+        # Keep English README if Persian resume is missing
+        pass
     
     try:
         with open(output_file, 'w', encoding='utf-8') as f:

@@ -1,0 +1,139 @@
+{
+    "name": "محمد حسین‌زاده",
+    "title": "مهندس نرم‌افزار",
+    "links": {
+        "github": "mhmdhoseinzade",
+        "linkedin": "mhmdhoseinzade",
+        "website": "https://mhmdhoseinzade.ir"
+    },
+    "contact": {
+        "email": "mohammad.hz.dev@gmail.com",
+        "phone": "+989115818088",
+        "location": "مازندران، ایران"
+    },
+    "summary": "مهندس نرم‌افزار با بیش از ۶ سال تجربه در توسعه‌ی سامانه‌های بک‌اند و زیرساخت/پلتفرم با Python و Go (Django، FastAPI، Flask). سابقه‌ی رهبری و منتورینگ تیم بک‌اند و همکاری نزدیک با تیم‌های محصول/DevOps را دارم و در پروژه‌های مختلف با استک‌ها و سرویس‌های متنوع کار کرده‌ام. همچنین تجربه‌ی طراحی معماری‌های مقیاس‌پذیر (Microservices)، استقرار در محیط‌های ابری و کار عملی با Kubernetes، Docker و فرآیندهای CI/CD را دارم. تمرکز من روی پایداری، کارایی، نگه‌داری‌پذیری و بهبود تجربه‌ی توسعه‌دهندگان از طریق ابزارسازی و اتوماسیون است.",
+    "education": [
+        {
+            "period": "2019-2023",
+            "degree": "کارشناسی علوم کامپیوتر",
+            "institution": "دانشگاه مازندران"
+        }
+    ],
+    "experience": [
+        {
+            "company": "Runflare",
+            "period": "Dec 2019 – Present",
+            "position": "توسعه‌دهنده‌ی بک‌اند / سرپرست تیم",
+            "achievements": [
+                {
+                    "text": "طراحی و معماری پلتفرم PaaS ران‌فلر با Django و Django REST Framework و بهبود ۲۰٪ در زمان پاسخ API با بهینه‌سازی کوئری‌ها و راهکارهای کش.",
+                    "tags": ["Django", "Django REST Framework", "PaaS", "Platform Design"]
+                },
+                {
+                    "text": "ارکستریشن و مدیریت اپلیکیشن‌های کانتینری با استفاده از Kubernetes و مفاهیم رایج سرویس‌های ابری.",
+                    "tags": ["Kubernetes", "Container Orchestration", "Cloud Services", "DevOps"]
+                },
+                {
+                    "text": "پیاده‌سازی فرآیندهای CI/CD برای استقرار خودکار از GitHub و GitLab.",
+                    "tags": ["CI/CD", "Automation", "GitHub", "GitLab", "Deployment"]
+                },
+                {
+                    "text": "انتشار CLI ران‌فلر روی PyPI و کاهش ۷۰٪ زمان استقرار کاربران با یک دستور. سپس بازنویسی CLI با Go برای کارایی بالاتر و پشتیبانی بهتر از سیستم‌عامل‌های مختلف.",
+                    "tags": ["CLI", "PyPI", "Go", "Performance", "User Experience", "70% Improvement", "Cross-platform"]
+                },
+                {
+                    "text": "توسعه و بهینه‌سازی سیستم بکاپ و کاهش زمان بازیابی داده از ۳۰ دقیقه به ۱۵ دقیقه. برای پایداری و توسعه‌پذیری هسته، از Design Patternها استفاده شد.",
+                    "tags": ["Backup System", "Design Patterns", "Data Recovery", "Optimization", "Performance", "50% Improvement"]
+                },
+                {
+                    "text": "تبدیل معماری مونولیت (Monolith) به Microservices با FastAPI، Flask و عمدتاً Django. در برخی بخش‌ها از Go برای بهبود یکپارچگی با Kubernetes استفاده شد.",
+                    "tags": ["Microservices", "Architecture", "FastAPI", "Flask", "Django", "Go", "Kubernetes"]
+                },
+                {
+                    "text": "طراحی و پیاده‌سازی مکانیزم‌های بازیابی کامل سیستم برای سناریوهای شکست بحرانی.",
+                    "tags": ["System Restore", "Disaster Recovery", "Critical Systems", "Reliability"]
+                },
+                {
+                    "text": "پیاده‌سازی Harbor Registry برای ذخیره و بازیابی کارآمد ایمیج‌های کانتینری کاربران.",
+                    "tags": ["Harbor Registry", "Container Images", "Storage", "Efficiency"]
+                },
+                {
+                    "text": "یکپارچه‌سازی Redis و Celery برای کش و پردازش وظایف پس‌زمینه و کاهش ۴۰٪ تأخیر درخواست‌ها.",
+                    "tags": ["Redis", "Caching", "Celery", "Background Tasks", "Performance", "40% Improvement"]
+                },
+                {
+                    "text": "توسعه یک CRM داخلی برای بهبود تجربه کاربری و مدیریت ارتباط با مشتری.",
+                    "tags": ["CRM", "User Experience", "Customer Management", "Internal Tools"]
+                },
+                {
+                    "text": "پیاده‌سازی سیستم پایش (مانیتورینگ) و هشداردهی برای افزایش سرعت تشخیص و رفع مشکلات.",
+                    "tags": ["Monitoring", "Alerting", "Issue Detection", "System Reliability"]
+                },
+                {
+                    "text": "نوشتن تست‌های خودکار و Refactor برای ارتقای کیفیت و نگه‌داری‌پذیری کد.",
+                    "tags": ["Testing", "Code Quality", "Refactoring", "Maintainability", "Best Practices"]
+                },
+                {
+                    "text": "اخذ گواهی دانش‌بنیان برای محصول و انجام خدمت سربازی از طریق طرح امریه.",
+                    "tags": ["Certification", "Military Service", "Amriyeh Program", "Professional Development"]
+                },
+                {
+                    "text": "هدایت تیم بک‌اند، انجام Code Review و نهادینه‌سازی Best Practiceها.",
+                    "tags": ["Team Leadership", "Code Reviews", "Best Practices", "Mentoring"]
+                },
+                {
+                    "text": "بازطراحی و بهبود سیستم بکاپ و کاهش ۲۰٪ هزینه‌ی زیرساخت با یک رویکرد معماری جدید. برای نگه‌داری‌پذیری و تکامل بلندمدت، از Design Patternها استفاده شد.",
+                    "tags": ["Backup System", "Design Patterns", "Cost Optimization", "Architecture", "Maintainability", "20% Cost Reduction"]
+                },
+                {
+                    "text": "بازنویسی CLI ران‌فلر با Go و بهبود کارایی، نگه‌داری‌پذیری و پشتیبانی چندسکویی.",
+                    "tags": ["Go", "CLI", "Performance", "Maintainability", "Cross-platform"]
+                },
+                {
+                    "text": "پیاده‌سازی پایش و مانیتورینگ با ELK (Elasticsearch, Logstash, Kibana) برای شناسایی گلوگاه‌ها و مشکلات پنهان؛ بهبود ۳۵٪ در زمان واکنش به رخدادها و کاهش Downtime.",
+                    "tags": ["ELK Stack", "Elasticsearch", "Logstash", "Kibana", "Monitoring", "35% Improvement", "Downtime Reduction"]
+                },
+                {
+                    "text": "افزودن پشتیبانی WebSocket برای ارتباط بلادرنگ بین کاربران. بخش‌های حساس به کارایی با Go پیاده‌سازی شد تا پایداری و بهره‌وری افزایش یابد.",
+                    "tags": ["WebSocket", "Real-time Communication", "User Experience", "Go"]
+                },
+                {
+                    "text": "مهندسی زیرساخت RabbitMQ برای پردازش پس‌زمینه و ارتباط رویدادمحور (Event-driven) و کاهش ۲۵٪ تأخیر پاسخ‌گویی.",
+                    "tags": ["RabbitMQ", "Background Tasks", "Event-driven", "Performance", "25% Improvement"]
+                },
+                {
+                    "text": "بازنگری معماری هسته بکاپ و کاهش ۳۰٪ زمان پردازش بکاپ.",
+                    "tags": ["Backup Optimization", "Performance", "30% Improvement"]
+                },
+                {
+                    "text": "طراحی راهکارهای بکاپ اختصاصی برای دیتابیس‌ها با Bash و Python (PostgreSQL, MySQL, MongoDB, Redis) و منتورینگ ۳ توسعه‌دهنده جونیور.",
+                    "tags": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Database Management", "Automated Backups"]
+                },
+                {
+                    "text": "رفع مشکلات Builder، افزایش پایداری سیستم و افزایش ۵۰٪ سرعت Build. بخش‌های کلیدی Builder با Go پیاده‌سازی شد تا توان عملیاتی بهتر و سربار کمتر شود. همچنین با استفاده از Design Patternها، کد قابل توسعه و پایدار نگه داشته شد.",
+                    "tags": ["System Stability", "Build Optimization", "Design Patterns", "Performance", "50% Improvement", "Go"]
+                },
+                {
+                    "text": "دستیابی به افزایش ۱۰ برابری سرعت استقرار برای کاربرانی که نسخه وب‌سایت خود را به‌روزرسانی می‌کردند.",
+                    "tags": ["Deployment Speed", "Performance", "10x Improvement", "User Experience"]
+                },
+                {
+                    "text": "یکپارچه‌سازی سیستم RAG مبتنی بر هوش مصنوعی (Retrieval-Augmented Generation) برای پاسخ‌گویی به پرسش‌های فنی کاربران.",
+                    "tags": ["AI", "RAG", "Machine Learning", "User Support", "Technical Questions"]
+                },
+                {
+                    "text": "طراحی بستری برای Mirror چنداکوسیستمیِ PyPI، npm، Composer، Maven/Gradle، NuGet و pub.dev (Flutter)، به‌همراه مخازن توزیع‌های لینوکسی (APT، YUM/DNF، APK) و Docker Registryهای متنوع (`https://runflare.com/mirrors/`). آماده برای خدمت‌رسانی به بیش از ۱۰۰ هزار کاربر و ارائه‌ی مدل اشتراکی برای استفاده از Mirrorها.",
+                    "tags": ["Artifact Mirroring", "PyPI", "npm", "Composer", "Maven", "Gradle", "NuGet", "Flutter", "pub.dev", "APT", "YUM", "DNF", "APK", "Docker Registry", "Scalability", "Subscriptions"]
+                }
+            ]
+        }
+    ],
+    "skills": {
+        "languages": ["Python", "Go"],
+        "frameworks": ["Django", "FastAPI", "Flask"],
+        "devops": ["Docker", "Kubernetes", "CI/CD", "GitLab", "GitHub Actions"],
+        "databases": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Elastic"],
+        "soft": ["تفکر انتقادی", "کنجکاوی", "مدیریت هیجانی", "کار تیمی"],
+        "concepts": ["Design Patterns", "Algorithms & Data Structures"]
+    }
+}
